@@ -2,7 +2,7 @@ let express = require('express'),
     cors = require('cors'),
     app = express(),
     routes = require('./src/routes');
-    port = process.env.port || 80;
+    port = process.env.port || 8080;
 
 app.use(cors());
 
