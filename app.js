@@ -1,7 +1,7 @@
-var express = require('express'),
+let express = require('express'),
     cors = require('cors'),
     app = express(),
-    routes = require('./routes');
+    routes = require('./src/routes');
     port = 80 || process.env.port;
 
 app.use(cors());
@@ -13,4 +13,4 @@ app.get('/api/randomBuiltQuestion', routes.getRandomBuiltQuestion);
 
 app.listen(port, function(){
     console.log('Server started on port ' + port);
-})
+});
