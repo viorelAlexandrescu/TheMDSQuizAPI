@@ -231,7 +231,7 @@ let DB = (function () {
 			answesrIndex: 2
 		},
 		 {
-			question: "Care an dureaza numai o zi?"
+			question: "Care an dureaza numai o zi?",
 			answears: [
 				"2012",
 				"2013",
