@@ -1,6 +1,6 @@
 
 let DB = (function () {
-    let questionsPerLevel = 1;
+    let questionsPerLevel = 10;
 
     let data = [
         
@@ -160,6 +160,156 @@ let DB = (function () {
             ],
             answesrIndex: 1
         },
+		 {
+			question: "Unde gasesti un caine fara picioare?",
+			answears: [
+				"La abator",
+				"Hingheri",
+				"Unde l-ai lasat",
+				"Mort"
+			],
+			answesrIndex: 2
+		},
+		 {
+			question: "O pisica alba se urca in pom. Cum se da jos?",
+			answears: [
+				"Incet",
+				"Cu grija",
+				"Alba",
+				"Prafuita"
+			],
+			answesrIndex: 2
+		},
+		 {
+			question: "Care este diferenta intre 1000 de ursi albi si un urs alb?",
+			answears: [
+				"Mare",
+				"0",
+				"Nici o diferenta",
+				"999 ursi albi"
+			],
+			answesrIndex: 3
+		},
+		 {
+			question: "Ce fac pestii cand sunt multi?",
+			answears: [
+				"Bancuri",
+				"Se mananca intre ei",
+				"Inoata",
+				"Ciripesc"
+			],
+			answesrIndex: 0
+		},
+		 {
+			question: "Cum se numesc dacii care gandesc?",
+			answears: [
+				"Romani",
+				"Gandaci",
+				"Insecte",
+				"Brontozauri"
+			],
+			answesrIndex: 1
+		},
+		 {
+			question: "Ce se afla intre Soare si Pamant?",
+			answears: [
+				"Marte",
+				"Luna",
+				"Pluto",
+				"'si'"
+			],
+			answesrIndex: 3
+		},
+		 {
+			question: "Cum se cheama un caine fara picioare?",
+			answears: [
+				"Rex",
+				"Trist",
+				"Nu se cheama, ca oricum nu vine",
+				"Cutu-Cutu"
+			],
+			answesrIndex: 2
+		},
+		 {
+			question: "Care an dureaza numai o zi?"
+			answears: [
+				"2012",
+				"2013",
+				"Anul in care te-ai nascut",
+				"Anul nou"
+			],
+			answesrIndex: 3
+		},
+		 {
+			question: "Cum scufunzi un submarin rusesc?",
+			answears: [
+				"Il bombardezi",
+				"Il bagi in apa",
+				"Cu oi",
+				"Te scufunda el pe tine"
+			],
+			answesrIndex: 1
+		},
+		 {
+			question: "Participi la un maraton si il depasesti pe cel de pe pozitia a doua. Pe ce loc ai reusit sa treci?",
+			answears: [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			answesrIndex: 1
+		},
+		 {
+			question: "In ce an Craciunul si Anul nou pica in acelasi an?",
+			answears: [
+				"In fiecare an",
+				"In nici un an",
+				"2000",
+				"2010"
+			],
+			answesrIndex: 0
+		},
+		 {
+			question: "Cum pui o girafa in frigider?",
+			answears: [
+				"Cumperi un frigider mai mare",
+				"Nu poti",
+				"Cu grija",
+				"Deschizi frigiderul, pui girafa in el si apoi inchizi usa"
+			],
+			answesrIndex: 3
+		},
+		 {
+			question: "Unde a fost semnata Declaratia de Independenta?",
+			answears: [
+				"Rusia",
+				"America",
+				"Romania",
+				"In josul paginii"
+			],
+			answesrIndex: 3
+		},
+		 {
+			question: "Cum pui un aligator in frigider?",
+			answears: [
+				"Deschizi frigiderul, scoti girafa, pui aligatorul in el, si apoi inchizi usa",
+				"Cu talent si cu valoare",
+				"Nu poti ca te musca",
+				"Cu forta"
+			],
+			answesrIndex: 0
+		},
+		 {
+			question: "Ce nu poti manca niciodata la micul dejun?",
+			answears: [
+				"Pranzul sau cina",
+				"Cirese",
+				"Mere",
+				"Micul dejun"
+			],
+			answesrIndex: 0
+		}
     ];
 
     function get(level, index) {
