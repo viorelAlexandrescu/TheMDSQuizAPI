@@ -312,8 +312,8 @@ let DB = (function () {
 		}
     ];
 
-    function get(level, index) {
-        return data[ (level - 1) * questionsPerLevel + index ];
+    function get(level, index) {		
+        return data[ (level - 1) * questionsPerLevel + index * 1];
     }
 
     function getRandom(blackList = []) {
