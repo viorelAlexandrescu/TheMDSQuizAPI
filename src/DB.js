@@ -17,7 +17,7 @@ let DB = (function () {
 
         
         {
-            question: "Avem sirul 64, 32, 16, 8, ?, 2. Ce numar lipseste?",
+            question: "Avem sirul 64 32 16 8 ? 2. Ce numar lipseste?",
             answears: [
                 "1",
                 "2",
@@ -39,7 +39,7 @@ let DB = (function () {
             answesrIndex: 2
         },
         {
-            question: "Unele luni au 31 zile, altele doar 30. Cate au 28 de zile?",
+            question: "Unele luni au 31 zile altele doar 30. Cate au 28 de zile?",
             answears: [
                 "1",
                 "0",
@@ -81,7 +81,7 @@ let DB = (function () {
             answesrIndex: 2
         },
         {
-            question: "Daca a 2-a zi a lunii este vineri, atunci a 12-a zi a lunii este marti",
+            question: "Daca a 2-a zi a lunii este vineri atunci a 12-a zi a lunii este marti",
             answears: [
                 "Adevarat",
 	            "Fals",
@@ -225,7 +225,7 @@ let DB = (function () {
 			answears: [
 				"Rex",
 				"Trist",
-				"Nu se cheama, ca oricum nu vine",
+				"Nu se cheama ca oricum nu vine",
 				"Cutu-Cutu"
 			],
 			answesrIndex: 2
@@ -276,7 +276,7 @@ let DB = (function () {
 				"Cumperi un frigider mai mare",
 				"Nu poti",
 				"Cu grija",
-				"Deschizi frigiderul, pui girafa in el si apoi inchizi usa"
+				"Deschizi frigiderul pui girafa in el si apoi inchizi usa"
 			],
 			answesrIndex: 3
 		},
@@ -293,7 +293,7 @@ let DB = (function () {
 		 {
 			question: "Cum pui un aligator in frigider?",
 			answears: [
-				"Deschizi frigiderul, scoti girafa, pui aligatorul in el, si apoi inchizi usa",
+				"Deschizi frigiderul scoti girafa pui aligatorul in el si apoi inchizi usa",
 				"Cu talent si cu valoare",
 				"Nu poti ca te musca",
 				"Cu forta"
